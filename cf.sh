@@ -8,7 +8,7 @@ clear
 apt install jq curl -y
 sub=$(</dev/urandom tr -dc a-z | head -c4)
 DOMAIN=vpsdb.my.id
-SUB_DOMAIN=${sub}vpsdb.my.id
+SUB_DOMAIN=${sub}.vpsdb.my.id
 CF_ID=nsdomain@bionic.my.id
 CF_KEY=631e1509cdf19330ee90d2062d049ab705279
 set -euo pipefail
