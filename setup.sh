@@ -187,6 +187,7 @@ fi
 echo -e "${GREEN}Starting Installation............${NC}"
 # // Go To Root Directory
 cd /root/
+apt install dos2unix -y
 apt install psmisc -y 
 apt install sudo -y 
 apt install socat -y 
